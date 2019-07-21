@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite_datadriven">
+  <test thread-count="5" name="Test" preserve-order="true">
+  <!-- Params  --> 
+  <parameter name="homeURL" value="http://automationpractice.com"/>
+    <classes>     
+      <!-- Tests -->
+	  <class name="test.datadriven.Signin_test"/>  
+      <!--  
+      -->
+    </classes> 
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

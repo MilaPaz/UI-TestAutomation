@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite_pageobject">
+  <test thread-count="5" name="Test" preserve-order="true">
+  <!-- Params  --> 
+  <parameter name="homeURL" value="https://parabank.parasoft.com/parabank/index.htm"/>
+    <classes>     
+      <!-- Tests -->
+      <class name="test.pageobject.Login_test"/>   
+      <class name="test.pageobject.Register_new_account_test"/>
+      <!--  
+      -->
+    </classes> 
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite_datadriven]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="homeURL" value="http://automationpractice.com"/>
+    <classes>
+      <class name="test.datadriven.Signin_test">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="signin" invocation-numbers="0 1 2"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- test.datadriven.Signin_test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite_datadriven] -->

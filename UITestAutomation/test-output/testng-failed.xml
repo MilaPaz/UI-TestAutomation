@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite_pageobject]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="homeURL" value="https://parabank.parasoft.com/parabank/index.htm"/>
+    <classes>
+      <class name="test.pageobject.Register_new_account_test">
+        <methods>
+          <include name="submit_register_form"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- test.pageobject.Register_new_account_test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite_pageobject] -->
